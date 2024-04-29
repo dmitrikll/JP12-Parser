@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class BookAnalyzer {
 
-    public void getAnalyze (String bookName) {
+    public void getAnalyze(String bookName) {
 
         // перевірка навності файлу у директорії
         Path bookPath = Paths.get("src", bookName + ".txt");
